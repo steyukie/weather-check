@@ -16,6 +16,7 @@ body {
     border-radius: 25px;
     padding: 40px 35px;
     text-align: center;
+    color: #ebfffc;
     background: rgb(54,54,154);
     background: linear-gradient(25deg, rgba(54,54,154,1) 35%, rgba(0,212,255,1) 100%); 
 }
@@ -27,7 +28,7 @@ body {
     justify-content: space-between;
 }
 
-.search input{
+.search input {
     border: 0;
     outline: 0;
     background: #ebfffc;
@@ -36,11 +37,11 @@ body {
     height: 60px;
     border-radius: 30px;
     flex: 1;
-    margin-right: 16px;
+    margin-right: 10px;
     font-size: 18px;
 }
 
-.search button{
+.search button {
     border: 0;
     outline: 0;
     background: #ebfffc;
@@ -50,6 +51,46 @@ body {
     cursor: pointer;
 }
 
-.search button img{
+.search button img {
     width: 16px;
+}
+
+.weather-icon {
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind {
+    font-size: 28px;
+    margin-top: -6px;
 }
